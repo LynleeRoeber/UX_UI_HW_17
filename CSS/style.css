@@ -1,0 +1,41 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.logo {    
+    width: 100px; 
+    height: 100px; 
+    padding: 1%;      
+}
+.name {
+    text-align: left;
+    font-weight: 900;
+    font-size: 50px;       
+}
+.navigation {
+    background-color: darkorange;
+    overflow: hidden;    
+}
+nav {
+    width: 73%;
+    padding: 1%;
+    text-align: right;    
+}
+ul {
+    width:50%;
+    margin-left: auto;
+}
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer {
+    background-color: darkorange;
+    text-align: left;
+    height: 50px;    
+}
