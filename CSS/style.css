@@ -1,6 +1,15 @@
 .inline-block {
     display: inline-block;
     vertical-align: bottom;
+    
+}
+.inline-block li{
+    background-color: #ddd;
+    outline: 1px solid #000;
+}
+.inline-block li:hover{
+    background-color: red;
+    color: black; 
 }
 .logo {    
     width: 100px; 
@@ -34,8 +43,22 @@ ul {
     margin: 0 auto;
     text-align: center;
 }
+button {
+    background-color: #aa0a04;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 footer {
     background-color: darkorange;
     text-align: left;
     height: 50px;    
+}
+footer ul{
+    float: left;
 }
