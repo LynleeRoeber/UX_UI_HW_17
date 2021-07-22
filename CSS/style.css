@@ -1,63 +1,86 @@
+
 .inline-block {
     display: inline-block;
     vertical-align: bottom;
-    
 }
-.inline-block li{
-    background-color: #ddd;
-    outline: 1px solid #000;
-}
-.inline-block li:hover{
-    background-color: red;
-    color: black; 
+li{margin: 5px;}
+
+li:hover{
+    background-color: white;
+    color: black;
 }
 .logo {    
     width: 100px; 
     height: 100px; 
-    padding: 1%;      
+    padding: 1%;
+    position: top;      
 }
 .name {
     text-align: left;
     font-weight: 900;
-    font-size: 50px;       
+    font-size: 50px;
+    position: absolute;
+    margin-block-start: 20px;
 }
 .navigation {
-    background-color: darkorange;
-    overflow: hidden;    
+    background-image: linear-gradient(to bottom right, darkorange, yellow);
+    overflow: hidden;      
 }
 nav {
-    width: 73%;
-    padding: 1%;
-    text-align: right;    
+    width: 90%;
+    padding-right: 5%;
+    text-align: right;
+    font-size: 25px;
+    font-weight:bold;
+    position: absolute;
 }
 ul {
-    width:50%;
+    width: 80%;
     margin-left: auto;
+    padding: 1%;
 }
 .heroimg {
     height: 600px;
     padding: 25px;
+    background-color: black
 }
 .content {
     width: 500px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
-}
-button {
-    background-color: #aa0a04;
-    border: none;
-    border-radius: 8px;
     color: white;
+    padding: 25px;
+}
+
+.statement {
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+    height: 20px;
+    width: 800px;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    background-color: #2e2c2c;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    margin: 15%
   }
 footer {
-    background-color: darkorange;
+    background-image: linear-gradient(to top left, darkorange, darkorange, yellow);
     text-align: left;
-    height: 50px;    
+    font-weight:bold;
+    height: 100px;
+    font-size: larger;    
 }
 footer ul{
     float: left;
